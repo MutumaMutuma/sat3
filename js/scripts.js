@@ -15,5 +15,16 @@ $(document).ready(function() {
    console.log(countBy);
    event.preventDefault()
    sayHi();
+
+   if(typeof parseInt(countTo) === "string"){
+     console.log("True")
+   }else if(countTo==="11"){
+     console.log("ulijuaje");
+   }else {
+     console.log("lie");
+   }
+  for (var i = i=0; i <= parseInt(countTo); i++)
+  console.log(i);
+
  })
 });
