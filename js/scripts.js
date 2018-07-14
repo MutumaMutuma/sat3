@@ -23,8 +23,11 @@ $(document).ready(function() {
    }else {
      console.log("lie");
    }
-  for (var i = i=0; i <= parseInt(countTo); i++)
-  console.log(i);
-
+   var numberArray  = []
+  for (var i = i=0; i <= parseInt(countTo); i++){
+  // console.log(i);
+  numberArray.push(i);
+}
+console.log(numberArray);
  })
 });
